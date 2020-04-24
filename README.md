@@ -22,3 +22,5 @@ GRRAU
 ```
 1. Add your changes to your local repository with `git add script.py` and **commit** them.
 1. Push your homework with `git push -u origin your-name` (again remember to provide your name).
+
+Remember to make changes **only** inside methods definitions, don't move pieces of code around and so on, write your code only in the place of `pass` statements.  
