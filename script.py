@@ -20,7 +20,7 @@ class Lion(BigCat):  # notice that Lion is inheriting "roar" method from BigCat
 # notice that functions below are NOT a part of any of the classes above
 def perform_cats_routine(cats):
     """" big cats like to roar if their bored. this function looks
-    at all the provided cats and if their bored make them roar """
+    at all the provided cats and if their bored makes them roar """
     pass
 
 
@@ -35,8 +35,7 @@ joe_exotics_zoo = [Tiger(), Lion(), Lion(), Tiger(), Tiger()]
 perform_cats_routine(joe_exotics_zoo)  # each cat should roar
 perform_cats_routine(joe_exotics_zoo)  # no cat should roar, because they're not bored anymore
 
-bore_a_cat(joe_exotics_zoo[1])
-bore_a_cat(joe_exotics_zoo[3])
-bore_a_cat(joe_exotics_zoo[4])
+bore_a_cat(joe_exotics_zoo[0])
+bore_a_cat(joe_exotics_zoo[2])
 
 perform_cats_routine(joe_exotics_zoo)  # only one tiger and one lion should roar
